@@ -8,16 +8,16 @@
     android:background="#E040FB" >
 
     <androidx.appcompat.widget.AppCompatTextView
-        android:layout_width="169dp"
-        android:layout_height="71dp"
+        android:id="@+id/appNameTextView"
+        android:layout_width="298dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="122dp"
+        android:layout_marginEnd="57dp"
         android:layout_marginBottom="426dp"
         android:text="BarterPata"
         android:textAlignment="center"
-        android:textSize="20dp"
-        android:id="@+id/appNameTextView"/>
+        android:textSize="60dp" />
 
 
 
@@ -28,7 +28,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="66dp"
         android:layout_marginBottom="68dp"
-        android:src="@drawable/barter" />
+        android:src="@drawable/exchange" />
 
     <ProgressBar
         android:id="@+id/progressBar"

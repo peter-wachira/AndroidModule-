@@ -20,6 +20,8 @@ public class SplashScreenActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
         ButterKnife.bind(this);
+        Typeface ostrichFont = Typeface.createFromAsset(getAssets(), "fonts/TheLabothings.ttf");
+        mAppNameTextView.setTypeface(ostrichFont);
 
         new Handler().postDelayed(
                 new Runnable() {
@@ -30,8 +32,7 @@ public class SplashScreenActivity extends AppCompatActivity {
                         startActivity(intent);
 
 
-                        Typeface ostrichFont = Typeface.createFromAsset(getAssets(), "fonts/TheLabothings.ttf");
-                        mAppNameTextView.setTypeface(ostrichFont);
+
                         finish();
 
                     }
