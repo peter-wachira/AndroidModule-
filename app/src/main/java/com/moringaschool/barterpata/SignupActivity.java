@@ -2,7 +2,6 @@ package com.moringaschool.barterpata;
 
 import android.app.ProgressDialog;
 import android.os.Bundle;
-
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -12,7 +11,6 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.BindView;
 
@@ -67,7 +65,7 @@ public class SignupActivity extends AppCompatActivity {
         String email = _emailText.getText().toString();
         String password = _passwordText.getText().toString();
 
-        //  signup logic
+        // TODO: Implement your own signup logic here.
 
         new android.os.Handler().postDelayed(
                 new Runnable() {
