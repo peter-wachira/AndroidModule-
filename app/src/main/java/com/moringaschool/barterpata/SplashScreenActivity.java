@@ -30,7 +30,7 @@ public class SplashScreenActivity extends AppCompatActivity {
                         startActivity(intent);
 
 
-                        Typeface ostrichFont = Typeface.createFromAsset(getAssets(), "ostrich-regular.ttf");
+                        Typeface ostrichFont = Typeface.createFromAsset(getAssets(), "fonts/TheLabothings.ttf");
                         mAppNameTextView.setTypeface(ostrichFont);
                         finish();
 
