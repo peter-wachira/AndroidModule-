@@ -3,7 +3,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:fitsSystemWindows="true"
-    android:background="">
+    android:background="#E040FB">
 
     <LinearLayout
         android:orientation="vertical"
@@ -12,7 +12,7 @@
         android:paddingTop="56dp"
         android:paddingLeft="24dp"
         android:paddingRight="24dp"
-        android:background="">
+        android:background="#E040FB">
 
         <ImageView android:src="@drawable/barter"
             android:layout_width="wrap_content"
@@ -65,6 +65,5 @@
             android:gravity="center"
             android:text="No account yet? Create one"
             android:textSize="16dip" />
-
     </LinearLayout>
 </ScrollView>
