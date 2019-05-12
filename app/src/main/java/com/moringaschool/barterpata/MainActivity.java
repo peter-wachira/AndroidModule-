@@ -9,8 +9,9 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
 import butterknife.BindView;
+import butterknife.ButterKnife;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     @BindView(R.id.btn_login)
     Button _loginButton;
     @BindView(R.id.btn_signup)
@@ -21,25 +22,35 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        ButterKnife.bind(this);
+
+          _signupButton.setOnClickListener(this);
+          _loginButton.setOnClickListener(this);
+
+        };
 
 
-        _signupButton.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            // Start the Signup activity
+            if(v == _signupButton) {
 
-            @Override
-            public void onClick(View v) {
-                // Start the Signup activity
-                if(v == _signupButton) {
-
-                    Intent intent = new Intent(getApplicationContext(), SignupActivity.class);
-                    startActivity(intent);
-                }
-                if(v == _loginButton) {
-
-                    Intent intent = new Intent(getApplicationContext(),Login.class);
-                    startActivity(intent);
-                }
+                Intent intent = new Intent(getApplicationContext(), SignupActivity.class);
+                startActivity(intent);
             }
-        });
+            if(v == _loginButton) {
 
-    }
+                Intent intent = new Intent(getApplicationContext(),Login.class);
+                startActivity(intent);
+            }
+
+
+        }
+
+
+
+
+
 }
+
+

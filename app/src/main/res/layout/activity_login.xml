@@ -3,7 +3,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:fitsSystemWindows="true"
-    android:background="#E040FB">
+    android:background="#fce38a">
 
     <LinearLayout
         android:orientation="vertical"
@@ -12,7 +12,7 @@
         android:paddingTop="56dp"
         android:paddingLeft="24dp"
         android:paddingRight="24dp"
-        android:background="#E040FB">
+        android:background="#f38181">
 
         <ImageView android:src="@drawable/barter"
             android:layout_width="wrap_content"

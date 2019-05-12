@@ -68,12 +68,15 @@ public class Login extends AppCompatActivity {
         String email = _emailText.getText().toString();
         String password = _passwordText.getText().toString();
 
+
+
         // authentication logic here.
 
         new android.os.Handler().postDelayed(
                 new Runnable() {
                     public void run() {
                         // On complete call either onLoginSuccess or onLoginFailed
+
                         onLoginSuccess();
                         // onLoginFailed();
                         progressDialog.dismiss();

@@ -19,6 +19,7 @@ public class SignupActivity extends AppCompatActivity {
 
     @BindView(R.id.input_name) EditText _nameText;
     @BindView(R.id.input_email) EditText _emailText;
+    @BindView(R.id.input_number) EditText _numberText;
     @BindView(R.id.input_password) EditText _passwordText;
     @BindView(R.id.btn_signup) Button _signupButton;
     @BindView(R.id.link_login) TextView _loginLink;
@@ -63,9 +64,10 @@ public class SignupActivity extends AppCompatActivity {
 
         String name = _nameText.getText().toString();
         String email = _emailText.getText().toString();
+        String number = _numberText.getText().toString();
         String password = _passwordText.getText().toString();
 
-        // TODO: Implement your own signup logic here.
+        // signup logic .
 
         new android.os.Handler().postDelayed(
                 new Runnable() {

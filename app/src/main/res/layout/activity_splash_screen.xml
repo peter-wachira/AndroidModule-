@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SplashScreenActivity"
-    android:background="#E040FB" >
+    android:background="#fce38a" >
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/appNameTextView"
@@ -20,15 +20,14 @@
         android:textSize="60dp" />
 
 
-
     <androidx.appcompat.widget.AppCompatImageView
-        android:layout_width="273dp"
-        android:layout_height="284dp"
+        android:layout_width="304dp"
+        android:layout_height="351dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="66dp"
-        android:layout_marginBottom="68dp"
-        android:src="@drawable/exchange" />
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="34dp"
+    app:srcCompat="@drawable/handshake" />
 
     <ProgressBar
         android:id="@+id/progressBar"
