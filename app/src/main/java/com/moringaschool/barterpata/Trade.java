@@ -8,14 +8,13 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 public class Trade extends ListActivity {
-    public void onCreate(Bundle icicle) {
-        super.onCreate(icicle);
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
         String[] values = new String[] { "Android", "iPhone", "WindowsMobile",
                 "Blackberry", "WebOS", "Ubuntu", "Windows7", "Max OS X",
                 "Linux", "OS/2" };
         // use your custom layout
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
-                R.layout.rowlayout, R.id.label, values);
+       TradeAdapter adapter =new TradeAdapter(this,values);
         setListAdapter(adapter);
     }
 
