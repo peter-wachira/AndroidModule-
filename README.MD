@@ -7,7 +7,7 @@
 
 
 # Author
-[Peter Wachira(https://github.com/peter-wachira) ![](https://img.shields.io/badge/Programmer-Verified-brightgreen.svg)
+[Peter Wachira](https://github.com/peter-wachira) ![](https://img.shields.io/badge/Programmer-Verified-brightgreen.svg)
 # Description
 BarterPata is an Android app that allows users  to trade items for other items, typically an easier barter trade system
 
@@ -41,7 +41,7 @@ BarterPata is an Android app that allows users  to trade items for other items, 
 * Android
 
 ## Licence
-- This project is licensed under the MIT Open Source license Copyright (c) 2019. [LICENCE](https://github.com/peter-wachira/AndroidModule-)
+- This project is licensed under the MIT Open Source license Copyright (c) 2019. [LICENCE](https://github.com/peter-wachira/AndroidModule-/blob/module1/LICENCE)
 
 [![forthebadge](https://forthebadge.com/images/badges/fuck-it-ship-it.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/makes-people-smile.svg)](https://forthebadge.com)
