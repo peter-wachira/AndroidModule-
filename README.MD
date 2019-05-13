@@ -1,14 +1,15 @@
 ## Peter Wachira
+## BarterPata May 13th 2019
 
 ![](https://img.shields.io/badge/Android-project-brightgreen.svg)
 ![](https://img.shields.io/badge/Language-Java%20-orange.svg)
 ![](https://img.shields.io/badge/Tests-Roboelectric-blue.svg)
-
+[![forthebadge](https://forthebadge.com/images/badges/powered-by-electricity.svg)](https://forthebadge.com)
 
 # Author
 [Peter Wachira(https://github.com/peter-wachira) ![](https://img.shields.io/badge/Programmer-Verified-brightgreen.svg)
 # Description
-This is an Android app that allows users  to trade items for other items, typically an easier barter trade system
+BarterPata is an Android app that allows users  to trade items for other items, typically an easier barter trade system
 
 # Requirements
 
