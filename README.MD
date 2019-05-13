@@ -9,7 +9,7 @@
 # Author
 [Peter Wachira](https://github.com/peter-wachira) ![](https://img.shields.io/badge/Programmer-Verified-brightgreen.svg)
 # Description
-BarterPata is an Android app that allows users  to trade items for other items, typically an easier barter trade system
+BarterPata is an Android app that allows users  to trade items for other items, typically an easier barter trade system for exchanging goods with other users
 
 # Requirements
 
