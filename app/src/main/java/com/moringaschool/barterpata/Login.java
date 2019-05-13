@@ -34,7 +34,10 @@ public class Login extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
+
+
                 login();
+
             }
         });
 
@@ -65,11 +68,11 @@ public class Login extends AppCompatActivity {
         progressDialog.setMessage("Checking Information...");
         progressDialog.show();
 
+
         String email = _emailText.getText().toString();
         String password = _passwordText.getText().toString();
 
-
-        Intent intent = new Intent(getApplicationContext(), Trade.class);
+        Intent intent = new Intent(Login.this,MainActivity.class);
         startActivity(intent);
 
         // authentication logic here.

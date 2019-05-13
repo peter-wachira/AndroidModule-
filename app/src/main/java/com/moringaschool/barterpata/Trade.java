@@ -13,7 +13,8 @@ public class Trade extends ListActivity {
         String[] values = new String[] { "Android", "iPhone", "WindowsMobile",
                 "Blackberry", "WebOS", "Ubuntu", "Windows7", "Max OS X",
                 "Linux", "OS/2" };
-        // use your custom layout
+
+        // using custom layout
        TradeAdapter adapter =new TradeAdapter(this,values);
         setListAdapter(adapter);
     }

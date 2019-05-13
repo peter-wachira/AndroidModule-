@@ -1,6 +1,7 @@
 package com.moringaschool.barterpata;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -62,11 +63,16 @@ public class SignupActivity extends AppCompatActivity {
         progressDialog.setMessage("Creating Account...");
         progressDialog.show();
 
+
+
+
         String name = _nameText.getText().toString();
         String email = _emailText.getText().toString();
         String number = _numberText.getText().toString();
         String password = _passwordText.getText().toString();
 
+        Intent intent = new Intent(SignupActivity.this,MainActivity.class);
+        startActivity(intent);
         // signup logic .
 
         new android.os.Handler().postDelayed(
@@ -86,6 +92,7 @@ public class SignupActivity extends AppCompatActivity {
         _signupButton.setEnabled(true);
         setResult(RESULT_OK, null);
         finish();
+
     }
 
     public void onSignupFailed() {

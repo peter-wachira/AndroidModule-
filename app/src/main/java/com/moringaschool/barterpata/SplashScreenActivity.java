@@ -26,12 +26,10 @@ public class SplashScreenActivity extends AppCompatActivity {
                     @Override
                     public void run() {
 
-                        Intent intent = new Intent(getApplicationContext(),MainActivity.class);
+                        Intent intent = new Intent(getApplicationContext(),Login.class);
                         startActivity(intent);
 
 
-                        Typeface ostrichFont = Typeface.createFromAsset(getAssets(), "fonts/ostrich-regular.ttf");
-                        mAppNameTextView.setTypeface(ostrichFont);
                         finish();
 
                     }
