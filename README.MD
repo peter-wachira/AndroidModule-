@@ -31,7 +31,7 @@ BarterPata is an Android app that allows users  to trade items for other items, 
 * Open the project using Android studio
 * Wait for the gradle to build the project
 
-* To run the App, you can use the ANdroid emulator or USB tethering with your Android phone
+* To run the App, you can use the ANdroid emulator or USB tethering with your Android phone from version 4.4
 
 ## Technologies used
 * Java

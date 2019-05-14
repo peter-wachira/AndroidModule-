@@ -72,6 +72,7 @@ public class SignupActivity extends AppCompatActivity {
         String password = _passwordText.getText().toString();
 
         Intent intent = new Intent(SignupActivity.this,MainActivity.class);
+        intent.putExtra("useremail",email);
         startActivity(intent);
         // signup logic .
 

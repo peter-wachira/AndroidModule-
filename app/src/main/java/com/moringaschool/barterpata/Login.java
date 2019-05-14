@@ -73,6 +73,7 @@ public class Login extends AppCompatActivity {
         String password = _passwordText.getText().toString();
 
         Intent intent = new Intent(Login.this,MainActivity.class);
+        intent.putExtra("useremail",email);
         startActivity(intent);
 
         // authentication logic here.
