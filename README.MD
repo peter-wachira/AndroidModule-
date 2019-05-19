@@ -22,7 +22,7 @@ BarterPata is an Android app that allows users  to trade items for other items, 
 * Go to the project [repository](https://github.com/peter-wachira/AndroidModule-)
 * Clone the project
 
-```git clone https://github.com/deeksonparlma/AndroidApp.git```
+```git clone https://github.com/peter-wachira/BarterPata-```
 
 * Install gradle
 ```sdk install gradle 5.3.1```
